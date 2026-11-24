@@ -74,6 +74,12 @@ Deploying the frontend to Vercel / Netlify to speed up loading of static resourc
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/book-searcher-org/book-searcher&base=frontend)
 
+### Deploy with ZopDay
+
+Builds this repository from its Dockerfile and runs it on port `7070`, fully managed on ZopCloud or in your own AWS or GCP account. Prepare the index the same way as in the Docker section.
+
+[![Deploy to ZopDay](https://zop.dev/deploytozopday-inkhard.svg)](https://zop.dev/zopday/app/deploy?repo=https://github.com/zu1k/book-searcher&name=book-searcher&port=7070&utm_source=github&utm_medium=one_click&utm_content=book-searcher)
+
 ### Original Search Api
 
 You can search by the following fields:
